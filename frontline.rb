@@ -1,5 +1,7 @@
 require 'sexpistol'
 
+$stdout.sync = true
+
 # This method takes the array of symbols/arrays that sexpistol generates and turns it into a hash.
 # The value of the keys are nil unless a nested list is detected, in which case, the value is a nested hash.
 def sp_array_to_hash(a)
