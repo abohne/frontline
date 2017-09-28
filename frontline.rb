@@ -48,3 +48,5 @@ str.gsub!(',', ' ')
 result = @parser.parse_string(str)
 
 h = sp_array_to_hash(result[0])
+
+print_hash(h)
