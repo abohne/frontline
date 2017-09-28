@@ -116,6 +116,10 @@ id
 location
 ```
 
+## Assumptions
+- Your host has ruby 2.0.0 or greater installed
+- Your host has a git client installed
+
 ## Todo
 - Create module encompassing `sp_array_to_hash` and `print_hash` methods
 - Add RSpec tests
